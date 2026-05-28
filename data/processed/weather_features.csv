@@ -1,0 +1,6 @@
+"weather_conditions","total_orders","avg_delay_mins","delay_rate","avg_delivery_time","avg_rating"
+"clear",2249,NA,NA,NA,4.01453979546465
+"cloudy",1224,NA,NA,NA,4.02867647058823
+"foggy",277,NA,NA,NA,4.04187725631769
+"other",488,NA,NA,NA,4.03872950819672
+"rainy",762,NA,NA,NA,4.0011811023622

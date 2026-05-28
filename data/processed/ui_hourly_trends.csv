@@ -1,0 +1,19 @@
+order_hour,delivery_mode,hourly_volume,fleet_stress_index
+0,Off-Peak,12662,0.78
+1,Off-Peak,28168,0.8
+2,Off-Peak,36946,0.81
+3,Off-Peak,27049,0.81
+4,Off-Peak,15244,0.8
+5,Off-Peak,7095,0.76
+6,Off-Peak,1416,0.72
+7,Off-Peak,11,0.68
+14,Peak (Lunch/Dinner),40,0.11
+15,Off-Peak,537,0.53
+16,Off-Peak,2104,0.73
+17,Off-Peak,3412,0.75
+18,Peak (Lunch/Dinner),5096,0.74
+19,Peak (Lunch/Dinner),13532,0.83
+20,Peak (Lunch/Dinner),15549,0.83
+21,Peak (Lunch/Dinner),11456,0.79
+22,Peak (Lunch/Dinner),8809,0.77
+23,Off-Peak,8155,0.77

@@ -1,0 +1,8 @@
+R(4.5.3) :
+
+> shiny::runApp("app/app.R", launch.browser = TRUE)
+
+VS CODE :
+
+Rscript -e "shiny::runApp('app/app.R', launch.browser=TRUE)"
+

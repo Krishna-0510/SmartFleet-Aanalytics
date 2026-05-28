@@ -1,0 +1,39 @@
+SmartFleetAnalytics/
+│
+├── 📊 data/                          # Raw & Processed Data
+│   ├── raw/
+│   │   ├── Porter_Data_Set.csv       # Raw delivery orders (14 columns)
+│   │   ├── processed_data.csv        # ML training data (Traffic, Distance, Delay)
+│   │   ├── cleaned_dataset_porter.xlsx    # Clean orders with time features
+│   │   └── Porter_Case_Study_Results.xlsx # Enhanced with delivery metrics
+│   │
+│   └── processed/
+│       ├── dashboard_data.csv        # Aggregated for dashboard (TO BE CREATED)
+│       ├── ml_features.csv           # Features for delay prediction (TO BE CREATED)
+│       └── time_series_data.csv      # Aggregated by date/hour (TO BE CREATED)
+│
+├── 🤖 model/                         # Machine Learning Models
+│   ├── delay_prediction_model.rds    # Random Forest (Traffic + Distance → Delay)
+│   ├── cost_optimization_model.rds   # Cost prediction model
+│   └── route_efficiency_model.rds    # Route optimization model
+│
+├── 📜 scripts/                       # Data Processing Scripts
+│   ├── 01_data_loading.R             # Load & combine all datasets
+│   ├── 02_data_cleaning.R            # Clean, standardize, engineer features
+│   ├── 03_feature_engineering.R      # Create business metrics
+│   ├── 04_model_training.R           # Train delay prediction model
+│   └── 05_dashboard_prep.R           # Prepare data for dashboard
+│
+├── 🎨 app/                           # Shiny Dashboard
+│   ├── app.R                         # Main dashboard app
+│   ├── ui.R                          # UI components (optional)
+│   └── server.R                      # Server logic (optional)
+│
+├── 📚 docs/                          # Documentation
+│   ├── README.md                     # Project overview
+│   ├── DATA_DICTIONARY.md            # Column definitions
+│   ├── FEATURES.md                   # Dashboard features explained
+│   └── DEPLOYMENT.md                 # How to deploy to server
+│
+└── 📋 config/                        # Configuration
+    └── settings.R                    # App settings, colors, themes
