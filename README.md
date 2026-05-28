@@ -209,7 +209,7 @@ The project uses **synthetic data** generated to mimic real Porter delivery data
 ## 👨‍💻 Author
 
 **VIT University — Big Data Analytics**
-SEM-II Project | 2025–2026
+ | 2025–2026
 
 ---
 
