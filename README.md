@@ -2,6 +2,14 @@
 
 > A professional **R Shiny** dashboard for delivery fleet performance analysis — featuring real-time KPIs, delay prediction, route intelligence, and driver analytics.
 
+## 🌐 Live Demo
+
+🚀 **Live Dashboard:**
+https://smartfleet-analytics.shinyapps.io/smartfleetanalytics/
+
+💻 **GitHub Repository:**
+https://github.com/Krishna-0510/SmartFleet_Analytics
+
 ![Dashboard](screenshots/01_dashboard.png)
 
 ---
